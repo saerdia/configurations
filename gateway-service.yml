@@ -17,13 +17,8 @@ eureka:
     hostname: localhost
     
       
-spring:
-  application:
-    name: gateway-service
-    
+spring:   
   cloud:
-    config:
-      uri: http://localhost:9120
     gateway:
       globalcors:
         corsConfigurations:
